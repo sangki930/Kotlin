@@ -1,4 +1,4 @@
-package com.basic
+package kotlinexample.basic
 
 // 비트 연산
 fun main(){

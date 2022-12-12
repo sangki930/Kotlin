@@ -1,4 +1,4 @@
-package com.basic
+package kotlinexample.basic
 
 fun main(){
     // val : (함수 main()에서 쓰는) 지역변수(local variable)

@@ -1,4 +1,4 @@
-package com.basic
+package kotlinexample.basic
 
 fun main(){
     var a = 'a'
