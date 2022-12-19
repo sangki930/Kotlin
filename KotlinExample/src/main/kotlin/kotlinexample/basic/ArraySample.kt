@@ -4,11 +4,10 @@ import java.util.*
 
 // 코틀린에서의 배열
 fun main(){
+    // 배열을 선언하는 함수는 Generic함
     val a = emptyArray<String>() // Array<String> (원소 0개)
     val b = arrayOf("My Name","AAA")   // Array<String> (원소 2개)
     val c = arrayOf(1,4,9) // Array<Int> (원소 3개)
-
-    // 배열을 선언하는 함수는 Generic함
 
     // 입력방법
 //    val size = readLine()!!.toInt()
@@ -16,6 +15,7 @@ fun main(){
 
     val operations = charArrayOf('+','-','*','/','%')
 
+    // 배열 기본 연산
     val arr = arrayOf(1,4,9,16)
     println(arr.size)
     println(arr.lastIndex)

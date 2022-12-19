@@ -2,11 +2,11 @@
 
 ---
 
-- 프린트 찍기(println)<br>
+- 콘솔출력(println)<br>
 ```kotlin
-  fun main(){
-    println("Hello World")
-  }
+fun main(){
+  println("Hello World") 
+}
 ```
 
 - val
@@ -22,6 +22,16 @@
     val n: Int = 100 // Integer 형
     val text: String = "Hello!" // 문자열
     ```
+- 논리연산자
+```kotlin
+// ! : 논리 부정 
+// or, and, xor => 즉시 계산(eager) 방식의 논리합
+// ||, &&  => 지연 계산(lazy) 방식의 논리합, 논리곱
+
+println(true or false)
+println(1==1 || 2>3)
+
+```
 - 문자
   
   - Char에 대한 연산은 두 문자의 차이는 제외하고 Char형으로 반환
@@ -107,3 +117,67 @@
     println("abcabc".indexOf('b',2))
     println("abcabc".indexOf("ab",2))
     ```
+- 비트연산
+  - 왼쪽 시프트
+  ```kotlin
+  println(13 shl 2)
+  println((-13) shl 2)
+  ```
+  - 오른쪽 시프트
+  ```kotlin
+  println(13 shr 2)
+  println((-13) shr 2)
+  ```
+  - 부호없는 오른쪽 시프트
+  ```kotlin
+  println(13 ushr 2)
+  println((-13) ushr 2)
+  ```
+  - 비트 and 연산
+  ```kotlin
+  println(13 and 19)
+  println(-13 and 19)
+  ```
+  - 비트 or 연산
+  ```kotlin
+  println(13 or 19)
+  println(-13 or 19)
+  ```
+  - 비트 xor 연산
+  ```kotlin
+  println(13 xor 19)
+  println(-13 xor 19)
+  ```
+  - 비트 반전
+  ```kotlin
+  println(13.inv())
+  println((-13).toInt())
+  ```
+- 배열
+  - 기본 
+  ```kotlin
+  // 배열을 선언하는 함수는 Generic함
+  val a = emptyArray<String>() // Array<String> (원소 0개)
+  val b = arrayOf("My Name","AAA")   // Array<String> (원소 2개)
+  val c = arrayOf(1,4,9) // Array<Int> (원소 3개)
+  ```
+  - 입력방법
+  ```kotlin
+  val size = readLine()!!.toInt()
+  val squares = Array(size){(it+1)*(it+1)} // 여기서 {}가 들어간 것을 람다(lambda)라고 함
+  ```
+  - 배열 기본 연산
+  ```kotlin
+  val arr = arrayOf(1,4,9,16)
+  println(arr.size)
+  println(arr.lastIndex)
+  println(arr[3])
+  println(arr[1])
+
+  arr[2] = 100
+  println(arr.contentToString())
+  arr[3]+=9
+  println(arr.contentToString())
+  arr[0]--;
+  println(arr.contentToString())
+  ```
