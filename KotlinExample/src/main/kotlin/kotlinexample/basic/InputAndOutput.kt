@@ -1,7 +1,7 @@
 package kotlinexample.basic
 
 fun main(){
-    // val : (함수 main()에서 쓰는) 지역변수(local variable)
+    // val : (함수 kotlinexample.packageexample.main()에서 쓰는) 지역변수(local variable)
     // val은 불변 변수 역할을 한다.
     val a = readLine()!!.toInt() // a를 입력받고 Int로 전환
     val b = readLine()!!.toInt() // b를 입력받고 Int로 전환

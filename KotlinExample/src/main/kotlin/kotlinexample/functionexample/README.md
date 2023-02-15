@@ -14,7 +14,7 @@ fun swap(s:String,from:Int,to:Int): String {
     return chars.concatToString() // 문자열로 반환
 }
 
-fun main(){
+fun kotlinexample.packageexample.main(){
 
     // sample
     println(swap("Hello",1,2))
