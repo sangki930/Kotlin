@@ -4,7 +4,7 @@
 
 - 콘솔출력(println)<br>
 ```kotlin
-fun main(){
+fun kotlinexample.packageexample.main(){
   println("Hello World") 
 }
 ```
