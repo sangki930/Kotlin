@@ -1,3 +1,3 @@
 fun main() {
-    println("Kotlin TEST")
+    println("Kotlin Example")
 }
