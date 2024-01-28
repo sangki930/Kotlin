@@ -8,4 +8,6 @@ class Solution {
                 answer+=i
         return answer
     }
+
+//    fun solution(myString: String, n: Int) = myString.map { it.toString().repeat(n) }.joinToString("");
 }
