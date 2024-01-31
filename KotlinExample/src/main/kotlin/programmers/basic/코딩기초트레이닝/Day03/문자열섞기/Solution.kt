@@ -1,4 +1,4 @@
-package programmers.basic.코딩기초트레이닝.Day03
+package programmers.basic.코딩기초트레이닝.Day03.문자열섞기
 
 class Solution {
     fun solution(str1: String, str2: String): String {
