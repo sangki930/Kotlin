@@ -1,4 +1,4 @@
-package programmers.basic.코딩기초트레이닝.Day07.배열만들기
+package programmers.basic.코딩기초트레이닝.Day07.배열만들기2
 
 class Solution {
     fun solution(l: Int, r: Int): IntArray {
