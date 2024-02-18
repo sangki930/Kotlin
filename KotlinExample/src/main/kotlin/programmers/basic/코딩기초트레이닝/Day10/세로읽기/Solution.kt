@@ -1,4 +1,4 @@
-package programmers.basic.Day10.세로읽기
+package programmers.basic.코딩기초트레이닝.Day10.세로읽기
 
 class Solution {
     fun solution(my_string: String, m: Int, c: Int): String {

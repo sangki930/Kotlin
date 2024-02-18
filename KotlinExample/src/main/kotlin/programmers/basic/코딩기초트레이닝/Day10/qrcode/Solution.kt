@@ -1,4 +1,4 @@
-package programmers.basic.Day10.qrcode
+package programmers.basic.코딩기초트레이닝.Day10.qrcode
 
 class Solution {
     fun solution(q: Int, r: Int, code: String): String {
