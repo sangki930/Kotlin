@@ -6,12 +6,14 @@ import kotlinx.coroutines.delay
 
 suspend fun main(){
     val message = GlobalScope.async {
-        delay(100)
+        delay(2000)
+        println("message")
         "abc"
     }
 
     val count = GlobalScope.async {
-        delay(100)
+        delay(2000)
+        println("count")
         1+2
     }
 
