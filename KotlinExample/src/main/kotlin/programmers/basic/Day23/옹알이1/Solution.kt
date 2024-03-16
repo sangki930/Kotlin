@@ -1,4 +1,4 @@
-package programmers.basic.Days23.옹알이1
+package programmers.basic.Day23.옹알이1
 
 internal class Solution {
     var banList: Array<String> = arrayOf("ayaaya", "yeye", "woowoo", "mama")

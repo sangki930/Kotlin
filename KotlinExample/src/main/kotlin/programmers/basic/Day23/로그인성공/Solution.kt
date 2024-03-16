@@ -1,4 +1,4 @@
-package programmers.basic.Days23.로그인성공
+package programmers.basic.Day23.로그인성공
 
 class Solution {
     fun solution(id_pw: Array<String>, db: Array<Array<String>>): String {

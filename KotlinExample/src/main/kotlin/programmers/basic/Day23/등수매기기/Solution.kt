@@ -1,4 +1,4 @@
-package programmers.basic.Days23.등수매기기
+package programmers.basic.Day23.등수매기기
 
 
 internal class Solution {

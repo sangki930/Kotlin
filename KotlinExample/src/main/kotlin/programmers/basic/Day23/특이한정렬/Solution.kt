@@ -1,4 +1,4 @@
-package programmers.basic.Days23.특이한정렬
+package programmers.basic.Day23.특이한정렬
 
 data class Data(var v : Int, var d : Int)
 class Solution {
