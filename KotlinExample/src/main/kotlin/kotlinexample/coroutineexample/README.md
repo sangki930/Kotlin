@@ -7,7 +7,14 @@ coroutineScope() 호출로 코드 블럭을 감싸면 커스텀 영역을 도입
 
 - 잡(Job) : 동시성 작업의 생명 주기를 표현하는 객체
 <br>
+- 잡 프로퍼티로부터 잡 현재 상태 결정하기
+<br>
 
-| 잡 상태 | isActive | isCompeted | isCancelled |
-|---|---|---|---|---|
-| 그래 그래 | a | b | b | s |
+| **잡 상태** | **isActive** | **isCompeted** | **isCancelled** |
+|----------|--------------|----------------|-----------------|
+| 신규       | false        | false          | false           |
+| 활성화      | true         | false          | false           |
+| 완료 중     | true         | false          | false           |
+| 취소 중     | false        | false          | true            |
+| 취소됨      | false        | true           | true            |
+| 완료됨      | false        | true           | false           |
