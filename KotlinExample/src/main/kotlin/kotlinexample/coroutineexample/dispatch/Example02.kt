@@ -1,4 +1,7 @@
 package kotlinexample.coroutineexample.dispatch
 
-class Example02 {
+import java.util.concurrent.atomic.AtomicInteger
+
+fun main(){
+    val id = AtomicInteger(0)
 }
