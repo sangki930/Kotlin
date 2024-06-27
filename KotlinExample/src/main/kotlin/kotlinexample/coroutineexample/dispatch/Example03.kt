@@ -1,4 +1,5 @@
 package kotlinexample.coroutineexample.dispatch
 
-class Example03 {
+fun main(){
+
 }
