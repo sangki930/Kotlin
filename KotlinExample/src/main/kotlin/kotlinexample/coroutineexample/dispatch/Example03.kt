@@ -2,5 +2,5 @@ package kotlinexample.coroutineexample.dispatch
 
 fun main(){
 
-    // DISPATCH
+    // DISPATCH(예정)
 }
