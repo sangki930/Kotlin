@@ -10,7 +10,8 @@ fun main(){
     println("합계 : $sum")
 
     // 짝수 번째 인덱스만 2배로
-    for( i in 0..a.lastIndex step 2) a[i]*=2
+    for( i in 0..a.lastIndex step 2)
+        a[i]*=2
 
     // 문자열과 배열에는 원소나 문자의 인덱스 범위를 제공하는 indices라는 프로퍼티가 있음
     val b = IntArray(10){it*it}
