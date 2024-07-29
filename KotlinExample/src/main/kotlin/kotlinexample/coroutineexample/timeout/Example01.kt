@@ -12,7 +12,6 @@ fun main(args: Array<String>) {
         val asyncData = async {
             File("data.txt").readText()
 
-
         try {
             val text = withTimeout(50L){asyncData.await()}
             println("데이터 로드됨 : $text")
