@@ -11,10 +11,13 @@ fun main(args: Array<String>) {
     runBlocking {
         val asyncData = async {
             File("data.txt").readText()
+        }
         try {
-            val text = withTimeout(50L){asyncData.await()}
+            val text = withTimeout(50L) {
+                asyncData.await()
+            }
             println("데이터 로드됨 : $text")
-        }catch (e: Exception){
+        } catch (e: Exception) {
             println("시간이 초과되었습니다.")
         }
     }
