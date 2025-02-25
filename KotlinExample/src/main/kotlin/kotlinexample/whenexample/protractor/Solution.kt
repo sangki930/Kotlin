@@ -1,8 +1,7 @@
 package kotlinexample.whenexample.protractor
 
 // 출처 : https://school.programmers.co.kr/learn/courses/30/lessons/120829
-class
-shpsSolution {
+class Solution {
     fun solution(angle: Int): Int {
         return when{
             angle in 1 until 90 -> 1 // 예각
