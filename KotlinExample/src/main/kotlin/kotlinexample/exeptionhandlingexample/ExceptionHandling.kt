@@ -1,6 +1,6 @@
 package kotlinexample.exeptionhandlingexample
 
-// 예외 던지기 예제
+// 예외 던지기
 class ExceptionHandling {
 
     // 예외 던지기(throw)
