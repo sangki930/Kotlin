@@ -6,7 +6,6 @@ import kotlinx.coroutines.launch
 import kotlinx.coroutines.runBlocking
 
 fun main(){
-
     runBlocking {
         val job = launch (start = CoroutineStart.LAZY) {
             println("job started");
