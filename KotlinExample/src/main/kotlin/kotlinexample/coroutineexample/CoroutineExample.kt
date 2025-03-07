@@ -3,7 +3,6 @@ package kotlinexample.coroutineexample
 import kotlinx.coroutines.delay
 
 class CoroutineExample {
-
     // suspend : 일시 중지
     suspend fun foo(){
         println("Task started")
